@@ -20,7 +20,7 @@ let scrollInterval;
 
 setTimeout(function() {
   // Start scrolling
-  scrollInterval = setInterval(scrollContent, 50); // Adjust the interval as needed
+  scrollInterval = setInterval(scrollContent, 80); // Adjust the interval as needed
 }, 10000);
 
 // Pause scrolling on mouse hover
@@ -30,5 +30,5 @@ scrollingText.addEventListener('mouseenter', function() {
 
 // Resume scrolling on mouse leave
 scrollingText.addEventListener('mouseleave', function() {
-  scrollInterval = setInterval(scrollContent, 10); // Adjust the interval as needed
+  scrollInterval = setInterval(scrollContent, 80); // Adjust the interval as needed
 });
